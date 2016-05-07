@@ -1,0 +1,16 @@
+<font face = "Times New Roman" size = "5">Is this the correct order?</font>
+<br>
+<br>
+<% order.each do |item| %>
+	<%=item%> <br>
+<% end %>
+<br>
+<form action = "/correct_order" method = "post">
+	<input type = "radio" name = "answer" value = "yes"> <font face = "Times New Roman" size = "3">Yes</font>
+	<br>
+	<input type = "radio" name = "answer" value = "no"> <font face = "Times New Roman" size = "3">No</font>
+	<br>
+	<input type = "submit">
+</form>
+
+
