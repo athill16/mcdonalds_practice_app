@@ -9,3 +9,6 @@ post '/order' do
 	erb :correct_order, :locals => {:order => order}
 end
 
+post '/correct_order' do 
+
+end
